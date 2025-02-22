@@ -9,3 +9,14 @@ Content-Type: application/json
 ###
 GET https://qa3rgjfth0.execute-api.eu-central-1.amazonaws.com/prod/spaces?id=32c632e1-834c-43e5-9bb7-4de0da462286
 ###
+
+DELETE https://qa3rgjfth0.execute-api.eu-central-1.amazonaws.com/prod/spaces?id=32c632e1-834c-43e5-9bb7-4de0da462286
+###
+
+PUT https://qa3rgjfth0.execute-api.eu-central-1.amazonaws.com/prod/spaces?id=32c632e1-834c-43e5-9bb7-4de0da462286
+content-type: application/json
+
+{
+    "location": "Paris2"
+}
+###
